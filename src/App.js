@@ -22,21 +22,11 @@ class FoundationSetup extends Component {
   }
 }
 
-class Sunset extends Component {
-  render() {
-    return(
-    <FoundationSetup>
-      <h4 className="small-description"><i>This project has been closed! I'm a better person now!</i></h4>
-    </FoundationSetup> 
-    ) 
-  };
-}
-
 class Top extends Component {
   render() {
     return(
     <FoundationSetup>
-      <h1 className="heading">Meet Gary.</h1>
+      <h1 className="heading">Meet  <a href="sms:+14243733825"> Gary</a></h1>
     </FoundationSetup> 
     ) 
   };
@@ -80,7 +70,7 @@ class PhoneNumber extends Component {
         </FoundationSetup>
         <FoundationSetup>
           <h5 className="small-description">
-            His number is <a href="http://wut.isup.dog">(no longer available but this links is a nice surprise!)</a>
+            His number is <a href="tel:+14243733825">(424) 373-FUCK</a>
           </h5>
         </FoundationSetup>
       </div>
@@ -137,7 +127,6 @@ class App extends Component {
   render() {
     return (
       <div> 
-        <Sunset/>
         <Top/>
         <Temper/>
         <Personal/>
