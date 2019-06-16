@@ -1,0 +1,38 @@
+body {
+  margin: 20px;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #eee;
+}
+
+.heading {
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+}
+
+.description {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin: 15px 0px;
+}
+
+
+.small-description{
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+}
+
+.footer {
+	text-align: center;
+	margin-top: 30px;
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+	font-size: .9em;
+}
+
+img {
+	max-width:100%;
+	max-height:100%;
+	display: block;
+	margin: 0 auto;
+}
