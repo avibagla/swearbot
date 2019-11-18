@@ -123,6 +123,23 @@ class Footer extends Component {
   }
 }
 
+class YouTube extends Component {
+  render() {
+    return(
+
+      <FoundationSetup>
+        <p className="description">
+          Watch the video!
+        </p>
+        <div className="youtube-embed">
+          <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/0mNgeLEEeZY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </FoundationSetup>
+
+    );
+  }
+}
+
 class App extends Component {
   render() {
     return (
@@ -133,6 +150,7 @@ class App extends Component {
         <PhoneNumber/>
         <Learn/>
         <Anytime/>
+        <YouTube/>
         <Footer/>
       </div>
 
